@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails photosite: development" uuid="375d3870-1479-4002-9a0b-f39fc307e146">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails photosite: test" uuid="f946abf5-ebd6-4a05-b4ad-7166b96c297b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails photosite: production" uuid="636484d3-2fab-492c-8869-7d9d50a441df">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

@@ -8,7 +8,7 @@ class OathsController < ApplicationController
   end
 
   def callback
-    provider = params[:provider]
+    provider = auth_params[:provider]
     if @user = login_from(provider)
       redirect_to root_path, :notice => "Logged in from #{provider.titleize}!"
     else
@@ -23,4 +23,10 @@ class OathsController < ApplicationController
         redirect_to root_path, :alert => "Failed to login from #{provider.titleize}!"
       end
     end
+  end
+
+  private
+  def auth_params
+    params.permit(:code, :provider)
+  end
 end

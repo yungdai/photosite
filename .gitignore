@@ -16,3 +16,4 @@
 /tmp
 
 config/initializers/sorcery.rb
+.idea/workspace.xml

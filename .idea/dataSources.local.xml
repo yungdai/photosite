@@ -2,14 +2,16 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails photosite: development" uuid="375d3870-1479-4002-9a0b-f39fc307e146">
-      <first-sync>true</first-sync>
+      <schema-pattern>photosite_development.*</schema-pattern>
+      <default-schemas>photosite_development.*</default-schemas>
     </data-source>
     <data-source name="Rails photosite: test" uuid="f946abf5-ebd6-4a05-b4ad-7166b96c297b">
-      <first-sync>true</first-sync>
+      <schema-pattern>photosite_test.*</schema-pattern>
+      <default-schemas>photosite_test.*</default-schemas>
     </data-source>
     <data-source name="Rails photosite: production" uuid="636484d3-2fab-492c-8869-7d9d50a441df">
       <first-sync>true</first-sync>
-      <user-name>yung_dai</user-name>
+      <user-name>photosite</user-name>
       <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffadfe2dfe5dffedfe5dff9dfe3dffedfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
     </data-source>
   </component>

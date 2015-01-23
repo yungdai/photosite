@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
 
+  get 'oauths/oath'
+
+  get 'oauths/callback'
+
   root 'photos#index'
   resources :sessions
   resources :photos

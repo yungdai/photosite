@@ -1,0 +1,7 @@
+<h1>Most recent pictures</h1>
+<ul>
+  <% @most_recent_photos.each do |photo| %>
+      <li>Title: <%= photo.title %></li>
+      <%= photo.note %>
+  <% end %>
+</ul>

@@ -1,4 +1,4 @@
-class OathsController < ApplicationController
+class OauthsController < ApplicationController
   skip_before_filter :require_login
 
   # sends the user on a trip to the provider,

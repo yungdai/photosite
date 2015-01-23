@@ -30,4 +30,8 @@
       <%= f.password_field :password_confirmation %>
     </div>
     <div class="actions"><%= f.submit %></div>
+
+    <div>
+    <%= link_to 'Login with Facebook', auth_at_provider_path(:provider => :facebook) %>
+    </div>
 <% end %>
